@@ -31,6 +31,16 @@
     <url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>CarServlet</servlet-name>
+    <servlet-class>com.javaweb.servlet.CarServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CarServlet</servlet-name>
+    <url-pattern>/CarServlet</url-pattern>
+  </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
